@@ -470,6 +470,10 @@ p
   display:none;
   position:absolute!important;
 }
+#maximage img .cover {
+  width: 100%;
+  height: 100%;
+}
 
 #arrow_left,#arrow_right
 {
@@ -523,12 +527,7 @@ p
   text-align: center;
 }
 
-.in-slide-inner img
-{
- width:100%;
- height: 100%;
-text-align: center;
-}
+
 
 .in-slide-inner h1 span
 {
