@@ -227,10 +227,10 @@ p
   background: url('../images/elements/line-bg.png') center center repeat-x;
 }
 
-.subp {
-    color: #847557;
-    text-align:justify;
-
+.subp{
+  color: #847557;
+  text-align: justify;
+  font-family: prima, 'Lobster', cursive;
 }
 
 
