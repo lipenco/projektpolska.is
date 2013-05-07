@@ -166,12 +166,17 @@ p
 
 .main-title > h1
 {
-  font-family: lovelo, 'Oswald', sans-serif;
+  font-family: prima, lovelo, 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size:96px;
   line-height: 108px;
-  color: #fff!important;
-  text-shadow:-2px 5px 1px #847557;
+  color: #ffa500 !important;
+  text-shadow:-5px 8px 4px #847557;
+  text-align: center;
+}
+
+.main-title > img {
+  text-align: center;
 }
 
   @font-face {
@@ -182,6 +187,11 @@ p
   @font-face {
         font-family: lovelob;
         src: url('../lovelo/Lovelo2.otf');   
+       }
+
+ @font-face {
+        font-family: prima;
+        src: url('../lovelo/Prima.ttf');   
        }
 
 .promo-text
@@ -206,7 +216,7 @@ p
   line-height: 80px;
   margin-bottom: 10px;
   font-weight:400;
-  font-family: lovelob, 'Lobster', cursive;
+  font-family: prima, lovelob, 'Lobster', cursive;
   text-shadow:-2px 3px 1px #847557;
   background: url('../images/elements/line-bg.png') center center repeat-x;
 }
@@ -221,22 +231,7 @@ p
   z-index:100;
 }
 
-#logo
-{
-  color:#fff;
-  float:left;
-  font-family:BebasRegular;
-  font-weight:lighter;
-  margin-left:50px;
-  margin-top:30px;
-  padding:0;
-  text-transform:none;
-}
 
-.dot
-{
-  font-size:45px;
-}
 
 #navigation ul
 {
@@ -249,7 +244,7 @@ p
 #navigation ul li
 {
   display:inline;
-  font-family: lovelo, helvetica,"Muli",sans-serif , arial;
+  font-family: prima, lovelo, helvetica,"Muli",sans-serif , arial;
   margin-left:0!important;
   margin-right:0!important;
   padding:3px 5px 3px 6px;
@@ -259,9 +254,9 @@ p
 {
   font-family:"sosa";
   color:#557F7D;
-  content:" e ";
+  content:"   ";
   font-size:22px;
-  padding-left:10px;
+  padding-left:20px;
 }
 
 #navigation ul li:last-child:after
@@ -272,7 +267,7 @@ p
 #navigation a,#navigation a:active,#navigation a:visited
 {
   color:#fff;
-  font-family: lovelob,'Lobster', cursive;
+  font-family: prima, lovelob,'Lobster', cursive;
   text-shadow:-2px 3px 1px #847557;
   font-size:24px;
   padding:3px 6px;
@@ -281,8 +276,8 @@ p
 
 .current > a
 {
-  color:#847557!important;
-  text-shadow:-2px 1px 1px #FFF0CE !important;
+  color: #ff9933 !important;
+  text-shadow:-2px 1px 1px #847557 !important;
 }
 
 /*SECTIONS OR PAGES - MAIN*/
@@ -544,7 +539,7 @@ p
 .in-slide-inner h1
 {
   color:#fff!important;
-  font-family: lovelo, 'Lobster', cursive;
+  font-family: prima, lovelo, 'Lobster', cursive;
   font-size:128px;
   line-height:124px;
   z-index:20;
@@ -796,7 +791,7 @@ nav.primary a:hover
 
 nav.primary a:active,nav.primary a.selected
 {
-  color:#86B8B7;
+  color:#86B8B7; 
 }
 
 .portfolio-items
@@ -1483,7 +1478,7 @@ fieldset h1
 .contactus h1
 {
   border-bottom:1px solid #363942;
-  color:#fff!important;
+  color:#ffa500!important;
   font-family: lovelo, 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size:72px;
