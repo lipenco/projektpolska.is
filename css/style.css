@@ -687,7 +687,7 @@ font-weight: normal;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif !important;
   text-shadow:-2px 3px 1px #847557;
-  background: url('../images/elements/lines.png') bottom center repeat-x;
+  background: url('../img/lines.png') bottom center repeat-x;
 }
 
 .team-soc{
@@ -2036,9 +2036,15 @@ fieldset h1
 .rss-box {
    
    width: 100%;
+
    background: url('../img/nav-bag4.png') repeat;
      
-  border: 7px image: url('../img/nav-bag11.png') repeat;
+ 
+  
+   background: url('../img/lines.png') bottom center repeat-x;
+   text-align: justify;
+
+
       
 }
 .rss-items {
@@ -2046,6 +2052,7 @@ fieldset h1
   padding:0.5em; 0.5em;
   margin-left:0px;
   color: #847557;
+
 }
 p.rss-title {padding:1em;}
 .rss-title {
@@ -2059,6 +2066,7 @@ p.rss-title {padding:1em;}
   margin: 0px;
   padding:0em;
   text-align: left;
+
 }
 
 .rss-item  {
@@ -2067,6 +2075,8 @@ p.rss-title {padding:1em;}
   font-weight : normal;
   list-style:none;
   padding-bottom:3em;
+
+
 
 }
 
@@ -2079,6 +2089,8 @@ p.rss-title {padding:1em;}
   margin-top: 20px;
   text-decoration:none;
   letter-spacing: 3px;
+
+
 }
 
 
@@ -2091,6 +2103,7 @@ p.rss-title {padding:1em;}
   margin-top: 20px;
   text-decoration:none;
   letter-spacing: 3px;
+  font-weight: lighter;
 }
 
  
@@ -2103,6 +2116,7 @@ p.rss-title {padding:1em;}
   font-size: 85%;
   font-weight : normal;
    color: #847557;
+
   } 
 /* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
 
