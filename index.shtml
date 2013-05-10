@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/colorbox.css" />
     <link rel="stylesheet" href="css/flexslider.css"/>  
     <link rel="stylesheet" href="css/style.css">
+   
 
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Droid+Serif:400,400italic,700,700italic|Lobster|Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
     <!--[if lt IE 9]>
@@ -190,7 +191,7 @@
 
                     <article class="span6 add-top">
                         <h3 class="sub-title">Blog</h3>
-                        <div id="blog"><div>
+                        <div id="blog"> #include file="rss2html/rss2html.php" <div>
                         
                     </article>
                  </div>
