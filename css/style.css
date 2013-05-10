@@ -219,7 +219,7 @@ p
 {
   color: #847557;
   font-family: prima, 'Droid Serif', serif;
-  font-style: italic;
+ 
   font-size:24px;
   font-weight:400;
   line-height:32px;
@@ -2030,3 +2030,108 @@ fieldset h1
   padding-bottom: 0;
   padding-top: 0;
 }
+
+/* begin styles for RSS Feed */
+
+.rss-box {
+   
+   width: 100%;
+   background: url('../img/nav-bag4.png') repeat;
+     
+  border: 7px image: url('../img/nav-bag11.png') repeat;
+      
+}
+.rss-items {
+  margin-top:20px;
+  padding:0.5em; 0.5em;
+  margin-left:0px;
+  color: #847557;
+}
+p.rss-title {padding:1em;}
+.rss-title {
+  display: none;
+  text-decoration: none;
+  font-family: prima, small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+  font-size: 20px;
+ background: url('../img/nav-bag4.png') repeat;
+  color:black;
+  font-weight:bold;
+  margin: 0px;
+  padding:0em;
+  text-align: left;
+}
+
+.rss-item  {
+  font-family: prima, small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+  font-size: 18px;
+  font-weight : normal;
+  list-style:none;
+  padding-bottom:3em;
+
+}
+
+.rss-item a {
+   color:#ffa500;
+  font-family: prima, lovelob,'Lobster', cursive;
+  text-shadow:-2px 3px 1px #847557;
+  font-size:24px;
+  padding:20px 6px;
+  margin-top: 20px;
+  text-decoration:none;
+  letter-spacing: 3px;
+}
+
+
+.rss-item a:hover {
+   color:#ffffff;
+  font-family: prima, lovelob,'Lobster', cursive;
+  text-shadow:-2px 3px 1px #847557;
+  font-size:24px;
+  padding:20px 6px;
+  margin-top: 20px;
+  text-decoration:none;
+  letter-spacing: 3px;
+}
+
+ 
+  
+.rss-item a:visited {
+  color:red;
+}
+
+.rss-date {
+  font-size: 85%;
+  font-weight : normal;
+   color: #847557;
+  } 
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+.pod-play {
+   _width:12em;
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+   
+   white-space:nowrap;
+   text-decoration: none;
+   vertical-align:middle;
+   background: #fb6;
+   color: black;
+   }
+.pod-play em {
+   _width:1em; _cursor:hand;
+   font-style: normal;
+   margin:0; padding: 0.1em 0.5em;
+   background: white;
+   color: #222;
+   }
+.pod-play span {
+   _width:1em; _cursor:hand;
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+   }
+.pod-play:hover {
+   background: #666;
+   color: white;
+   }
+.pod-play:hover em {
+   background: black;
+   color: white
+   }

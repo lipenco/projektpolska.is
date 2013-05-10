@@ -191,7 +191,11 @@
 
                     <article class="span6 add-top">
                         <h3 class="sub-title">Blog</h3>
-                        <div id="blog"> #include file="rss2html/rss2html.php" <div>
+                        <div id="blog"> <script language="JavaScript" src="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fcometoisland.blogspot.de%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&chan=y&num=5&desc=200&date=y&targ=y" type="text/javascript"></script>
+
+                        <noscript>
+                        <a href="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fcometoisland.blogspot.de%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&chan=y&num=5&desc=200&date=y&targ=y&html=y">View RSS feed</a>
+                        </noscript> <div>
                         
                     </article>
                  </div>
