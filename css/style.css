@@ -246,7 +246,7 @@ p
 
 #navigation
 {
-  background:url(../img/nav-bag14.png) repeat;
+  background:url(../img/nav-bag20.png) repeat;
   bottom:-3px;
   height:60px;
   position:absolute;
@@ -289,9 +289,9 @@ p
 
 #navigation a,#navigation a:active,#navigation a:visited
 {
-  color:#fff;
+  color:#ffa500;
   font-family: prima, lovelob,'Lobster', cursive;
-  text-shadow:-2px 3px 1px #847557;
+  
   font-size:24px;
   padding:3px 6px;
   text-decoration:none;
@@ -409,6 +409,19 @@ p
   z-index:-1;
 }
 
+.cover {
+ 
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+
+  background-size:cover;
+  height:100%;
+  position:absolute;
+  width:100%;
+  z-index:-1;
+
+}
+
 .separator2-bg
 {
   -moz-background-size:cover;
@@ -485,14 +498,14 @@ p
 .skit {
   width: 100%;
   height: 0px;
-   background: url('../img/nav-bag14.png') repeat;
+   background: url('../img/nav-bag20.png') repeat;
   padding-bottom: 0;
 }
 
 .skit-top {
   width: 100%;
   height: 0px;
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag20.png') repeat;
   padding-top: 0;
   margin-bottom:-20;
   z-index: 1;
@@ -512,7 +525,7 @@ p
 .skit5 {
   width: 100%;
   height: 20px;
-   background: url('../img/nav-bag14.png') repeat;
+   background: url('../img/nav-bag20.png') repeat;
   padding-bottom: 0;
   margin-bottom: -20px;
 }
@@ -1496,17 +1509,17 @@ fieldset h1
 
 .copyright p
 {
-  color:#363942;
+  color:#000000;
   opacity:0.3;
 }
 .copyright a
 {
-  color:#363942;
+  color: #000000;
   opacity:1 !important;
 }
 .copyright a:hover
 {
-  color:#86B8B7;
+  color:#ffffff;
   opacity: 1 !important;
   text-decoration: none;
 }
@@ -2010,7 +2023,7 @@ fieldset h1
 
 /*Section BGs*/
 #blog{
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag20.png') repeat ;
   padding-bottom: 30;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
@@ -2018,7 +2031,7 @@ fieldset h1
 
 }
 #projects{
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag22.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2026,7 +2039,7 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 #blogers{
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag20.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2034,7 +2047,7 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 #partners{
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag22.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2042,7 +2055,7 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 #contact{
-  background: url('../img/nav-bag14.png') repeat;
+  background: url('../img/nav-bag20.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2050,9 +2063,9 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 .footer{
-  background: url('../img/nav-bag14.png') repeat;
-  padding-bottom: 0;
-  padding-top: 0;
+  background: url('../img/nav-bag21.png') repeat;
+  padding-bottom: 30px;
+  padding-top: 20;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
@@ -2064,7 +2077,7 @@ fieldset h1
    
    width: 100%;
 
-   background: url('../img/nav-bag14.png') repeat;
+   background: url('../img/nav-bag20.png') repeat;
      
  
   
@@ -2089,7 +2102,7 @@ p.rss-title {padding:1em;}
   font-size: 20px;
  background: url('../img/nav-bag14.png') repeat;
   color:black;
-  font-weight:bold;
+  font-weight:lighter;
   margin: 0px;
   padding:0em;
   text-align: left;
@@ -2099,7 +2112,7 @@ p.rss-title {padding:1em;}
 .rss-item  {
   font-family: prima, small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
   font-size: 18px;
-  font-weight : normal;
+  font-weight : lighter;
   list-style:none;
   padding-bottom:3em;
 
@@ -2108,28 +2121,29 @@ p.rss-title {padding:1em;}
 }
 
 .rss-item a {
-   color:#ffa500;
+  color:#ffa500;
   font-family: prima, lovelob,'Lobster', cursive;
-  text-shadow:-2px 3px 1px #847557;
+  
   font-size:24px;
-  padding:20px 6px;
+  padding:20px 6px 15px;
   margin-top: 20px;
   text-decoration:none;
-  letter-spacing: 3px;
+
+  font-weight: lighter;
 
 
 }
 
 
 .rss-item a:hover {
-   color:#ffffff;
+   color:#ffa500;
   font-family: prima, lovelob,'Lobster', cursive;
-  text-shadow:-2px 3px 1px #847557;
+  
   font-size:24px;
-  padding:20px 6px;
+  padding:20px 6px 15px;
   margin-top: 20px;
   text-decoration:none;
-  letter-spacing: 3px;
+
   font-weight: lighter;
 }
 
