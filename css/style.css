@@ -1183,10 +1183,11 @@ p.milestones-date
 
 #milestones-navigation
 {
-  height:70px;
+  height:180px;
   margin:0 auto;
   padding-top:20px;
-  width:160px;
+  width:1046px;
+  background: url('../img/contact.png');
 }
 
 .prev
@@ -2031,7 +2032,7 @@ fieldset h1
 
 }
 #projects{
-  background: url('../img/nav-bag22.png') repeat;
+  background: url('../img/nav-bag25.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2047,7 +2048,7 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 #partners{
-  background: url('../img/nav-bag22.png') repeat;
+  background: url('../img/nav-bag25.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2055,7 +2056,7 @@ fieldset h1
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 #contact{
-  background: url('../img/nav-bag20.png') repeat;
+  background: url('../img/nav-bag25.png') repeat;
   padding-bottom: 30;
   padding-top: 0;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
@@ -2085,14 +2086,29 @@ fieldset h1
    text-align: justify;
 
 
-      
+      }
+
+      .rss-item a {
+  color:#ffa500;
+  font-family: prima, lovelob,'Lobster', cursive;
+  position: relative;
+  left: -60px;
+  font-size:24px;
+  padding:20px 6px 45px;
+  margin-top: 20px;
+  text-decoration:none;
+
+  font-weight: lighter;
+
+
 }
-.rss-items {
+.rss-items  {
   margin-top:20px;
   padding:0.5em; 0.5em;
   margin-left:0px;
   color: #847557;
   margin-bottom: 20px;
+
 
 }
 p.rss-title {padding:1em;}
@@ -2108,6 +2124,7 @@ p.rss-title {padding:1em;}
   text-align: left;
   margin-bottom: 20px;
 
+
 }
 
 .rss-item  {
@@ -2119,22 +2136,10 @@ p.rss-title {padding:1em;}
 
 
 
-}
-
-.rss-item a {
-  color:#ffa500;
-  font-family: prima, lovelob,'Lobster', cursive;
-  position: relative;
-  left: -60px;
-  font-size:24px;
-  padding:20px 6px 25px;
-  margin-top: 20px;
-  text-decoration:none;
-
-  font-weight: lighter;
-
 
 }
+
+
 
 
 .rss-item a:hover {
@@ -2160,8 +2165,10 @@ p.rss-title {padding:1em;}
   font-weight : normal;
    color: black;
  padding-top: 20px;
-
+ 
   } 
+
+  
 /* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
 
 .pod-play {
