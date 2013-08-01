@@ -18,20 +18,64 @@
    
 
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Droid+Serif:400,400italic,700,700italic|Lobster|Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <link rel="stylesheet" href="stylesheets/ie8.css">
-    <![endif]-->
-
-    <!--[if IE 7]>
-    <link href="assets/css/fonts/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]--> 
 
     <style>
     .in-slide-content{
         display: none;}
     </style> 
+             <script src="//www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
+              <script type="text/javascript">       
+                            google.load("feeds", "1");
+                             function OnLoad() {
+                              // Create a feed control
+                              var feedControl = new google.feeds.FeedControl();
+                            
+                              // Add two feeds.
+                              feedControl.addFeed("http://islandiablog.blogspot.com/feeds/posts/default?alt=rss");
+                              feedControl.addFeed("http://naszaislandia.blogspot.com/feeds/posts/default?alt=rss");
+                              feedControl.addFeed("http://miniiceland.com/feed/");
+                              feedControl.addFeed("http://islandii.blogspot.com/feeds/posts/default?alt=rss");
+                              feedControl.addFeed("http://naszaislandia39.wordpress.com/feed/");
 
+                              // Draw it.
+                              feedControl.draw(document.getElementById("content"));
+                            }
+                            google.setOnLoadCallback(OnLoad);
+            </script>
+  
+
+  <script src="//www.google.com/uds/solutions/slideshow/gfslideshow.js"
+            type="text/javascript"></script>
+    <style type="text/css">
+      #picasaSlideshow {
+        width:  250px;
+        height: 200px;
+        margin-bottom: 40px;
+        padding: 5px;
+      }
+    </style>
+    <script type="text/javascript">
+    /*
+    *  How to make a slideshow with a photo feed using our custom control.
+    *  To see the options, go here or click the docs link in the titlebar:
+    *  http://www.google.com/uds/solutions/slideshow/index.html
+    */
+    
+    google.load("feeds", "1");
+    
+    function OnLoad() {
+      var feed  = "http://www.blogger.com/feeds/6977354177478236483/posts/default";
+      var options = {
+        displayTime:2000,
+        transistionTime:600,
+        scaleImages:true,
+        fullControlPanel : true
+      };
+      var ss = new GFslideShow(feed, "slide", options);
+    }
+    
+    google.setOnLoadCallback(OnLoad);
+    </script>
     
     
 </head>
@@ -190,16 +234,18 @@
                  <div class="row">
                     <article class="span12 text-center promo-text">
                         <p>ProjektPolska.is to środowisko zrzeszające ludzi, którzy chcą budować kulturowy dialog pomiędzy Islandią a Polską.</p>
-                        <p>STATUT</p>
+                        <a><p>STATUT</p></a>
                         <p>Stowarzyszenie Projekt Polska.is powstał w pażdździerniku 2012 z inicjatywy kilkunastu Polaków związanych z Islandią - ludzi, którzy poczuli potrzebę działania na rzecz obu społeczności. </p>
                         <h2>Nasza misja:</h3>
                         <p>Projektowanie wspólnej rzeczywistości
                         Wspieranie niezależnych pomysłów
                         Promowanie różnorodności międzykulturowej</p>
 
-                        <p>Członkowie - Członkowie projekt Polska.is to grupa ludzi w różnym wieku, z różnymi historiami oraz najróżniejszymi talentami. Dzięki temu jesteśmy w stanie zajmować się projektami z wielu dziedzin.
-                        Jeśli interesuje cie współpraca z nami kliknij poniżej lub napisz do nas:
-                        Guzik DOŁĄCZ DO NAS</p>
+                        <p>Członkowie - Członkowie projekt Polska.is to grupa ludzi w różnym wieku, z różnymi historiami oraz najróżniejszymi talentami. Dzięki temu jesteśmy w stanie zajmować się projektami z wielu dziedzin.</p>
+                        <p>Jeśli interesuje cie współpraca z nami kliknij poniżej lub napisz do nas:</p>
+                        </p>Guzik DOŁĄCZ DO NAS</p>
+                        <div id="slide">
+                        </div>
                     </article>
                  </div>    
                 </section>
@@ -210,37 +256,7 @@
             </div>
     <!--page:ends-->
 
-                <div class="skit-top row-fluid">
-                 <div class="skit3-top"></div>
-                </div>
-                <section id="partners" class="container-fluid section page">
-                    <div class="row-fluid">
-                        <section class="container">
-                            <div class="row">
-                                <article class="span12 text-center main-title">
-                                    <h1 class="white">Our Blog</h1>
-                                    <img title="designova" alt="reva" src="img/star.png"/>
-                                </article>
-                             </div>
-
-                             <div class="row">
-                               <div class="row span7 offset2">
-                               
-                                    <h3 class="sub-title">Blog</h3>
-                                                 
-                                  <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.impracticalguide.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&chan=y&num=4&desc=300&date=y&targ=y&utf=y&pc=y&html=p"  charset="UTF-8" type="text/javascript"></script>
-
-                                  <noscript>
-                                  <a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.impracticalguide.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&chan=y&num=4&desc=300&date=y&targ=y&utf=y&pc=y&html=y">View RSS feed</a>
-                                  </noscript>          
-                             </div>
-                             </div>
-                        </section>
-                    </div>
-                </section>
-                 <div class="skit row-fluid">
-                    <div class="skit2"></div>
-                </div>
+               
     <!--page:ends-->
 
 
@@ -470,7 +486,7 @@
                 <div class="row">
                     <article class="span12 text-center main-title">
                         <h1 class="white">Blog</h1>
-                        <img title="designova" alt="reva" src="img/star.png"/>
+                        <img  src="img/star.png"/>
                     </article>
                  </div>
 
@@ -488,8 +504,9 @@
                     <article class="span6">
                         <h3 class="sub-title text-center">Blogerzy na Islandii</h3>
                         
-                        <div class="blogi"> <!-- http://panel2.feed.informer.com/ -->
-
+                        <div id="content"class="blogi"> 
+                           
+               
 
                         </div>
                       

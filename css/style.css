@@ -838,6 +838,11 @@ font-weight: normal;
    padding: 20px;
   }
 
+#content {
+  overflow: auto;
+  height: 600px;
+}
+
 nav.primary
 {
   text-align:center;
