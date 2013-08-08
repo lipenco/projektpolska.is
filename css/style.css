@@ -397,7 +397,7 @@ p
 {
   -moz-background-size:cover;
   -webkit-background-size:cover;
-  background:url(../img/336.png) 0 0 no-repeat fixed;
+  background:url(../img/335.png) 0 0 no-repeat fixed;
   background-size:cover;
   height:100%;
   position:absolute;
@@ -858,11 +858,7 @@ nav.primary a:active,nav.primary a.selected
   color:#86B8B7; 
 }
 
-.portfolio-items
-{
-  background: url('../images/page-bg/red.png') repeat;
-  padding-bottom:90px;
-}
+
 
 .portfolio li
 {
@@ -870,12 +866,13 @@ nav.primary a:active,nav.primary a.selected
   -ms-transition:none;
   -o-transition:none;
   -webkit-transition:none;
+    transition:none;
   float:left;
-  margin:0!important;
   overflow:hidden;
   padding:0!important;
-  transition:none;
-  width:16.6%;
+
+
+
 }
 
 .portfolio a
@@ -888,7 +885,6 @@ nav.primary a:active,nav.primary a.selected
 {
   display:block;
   height:auto;
-  width:100%;
 }
 
 .view .mask
