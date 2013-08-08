@@ -397,7 +397,7 @@ p
 {
   -moz-background-size:cover;
   -webkit-background-size:cover;
-  background:url(../img/335.png) 0 0 no-repeat fixed;
+  background:url(../img/336.png) 0 0 no-repeat fixed;
   background-size:cover;
   height:100%;
   position:absolute;
@@ -928,25 +928,21 @@ nav.primary a:active,nav.primary a.selected
   text-align:center;
   width:80%;
   margin-left: 10%;
-  background: url("../images/elements/line-bg.png") repeat-x  center center;
-    color: #FFFFFF;
-    font-family: 'prima', lovelob,'Lobster',cursive;
-    font-size: 32px;
+  color: #FFFFFF;
+  font-family: 'prima', lovelob,'Lobster',cursive;
+    font-size: 1.5em;
     font-weight: 400;
-    line-height: 80px;
-    margin-bottom: 10px;
-    text-shadow: -2px 3px 1px #847557;
+    text-shadow: -1px 1px 1px #847557;
 }
 
 .mask h6
 {
   color:#FFF!important;
   font-family: 'prima', 'Droid Serif', serif;font-size:16px;
-  background: url("../images/elements/ribbon.png") no-repeat  center center;
+  background: #ffa500;
   font-weight:400;
-    font-size: 18px;
+    font-size: 1em;
   line-height:58px;
-  margin-top:210px;
   position:absolute;
   text-align:center;
   width:100%;
@@ -966,7 +962,8 @@ nav.primary a:active,nav.primary a.selected
 
 .category1 .mask
 {
-  background:url('../images/page-bg/blue.png') repeat;
+  background: #000!important;
+  color: #eee;
 }
 
 .category1 .mask h5
@@ -975,27 +972,8 @@ nav.primary a:active,nav.primary a.selected
   opacity:1;
 }
 
-.category2 .mask
-{
-  
-  background:url('../images/page-bg/red.png') repeat;
-}
 
-.category2 .mask h5
-{
-  background:#635BB7;
-}
 
-.category3 .mask
-{
-  
-  background:url('../images/page-bg/dark.png') repeat;
-}
-
-.category3 .mask h5
-{
-  background:#899B11;
-}
 
 
 

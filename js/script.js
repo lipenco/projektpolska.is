@@ -171,74 +171,21 @@ $(window).load(function(){
     });
   
   
-  
-/*===========================================================*/
-/*  Google Map
-/*===========================================================*/   
-function initialize() {
 
-            var latlng = new google.maps.LatLng(41.517832,-8.493118);
-            var settings = {
-                zoom: 12,
-                center: latlng,
-                mapTypeControl: false,
-        scrollwheel: false,
-                mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-                navigationControl: false,
-                navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-                mapTypeId: google.maps.MapTypeId.ROADMAP};
-            var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
-      
-            var contentString = '<div id="content">'+
-                '<div id="siteNotice">'+
-                '</div>'+
-                '<h2 id="firstHeading" class="firstHeading">We are here</h2>'+
-                '<div id="bodyContent">'+
-                '<p>Have a nice visit!</p>'+
-                '</div>'+
-                '</div>';
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-            
-            var companyImage = new google.maps.MarkerImage('images/marker.png',
-                new google.maps.Size(58,63),<!-- Width and height of the marker -->
-                new google.maps.Point(0,0),
-                new google.maps.Point(35,20)<!-- Position of the marker -->
-            );
-    
-            
-    
-            var companyPos = new google.maps.LatLng(41.517832,-8.493118);
-    
-            var companyMarker = new google.maps.Marker({
-                position: companyPos,
-                map: map,
-                icon: companyImage,               
-                title:"We are here",
-                zIndex: 3});
-            
-            
-            
-            google.maps.event.addListener(companyMarker, 'click', function() {
-                infowindow.open(map,companyMarker);
-            });
-        }         
-    
 /*===========================================================*/
 /*  Automatically Highlights Navigation Item
 /*===========================================================*/
 
 function calculateScroll() {
 
-  var topRange = 400;
+  var topRange = 200;
   var contentTop    = [];
   var contentBottom = [];
   var winTop    = $(window).scrollTop();
 
     //rangeTop is used for changing the class a little sooner that reaching the top of the page
     //rangeBottom is similar but used for when scrolling bottom to top
-    var rangeTop  = 500;
+    var rangeTop  = 200;
     var rangeBottom = 500;
 
     $('#navigation').find('a').each(function(){
