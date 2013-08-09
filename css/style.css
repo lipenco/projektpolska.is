@@ -2131,3 +2131,15 @@ p.rss-title {padding:1em;}
    -o-transform:rotate(3deg);
    transform:rotate(3deg);
  }
+
+ #mce-EMAIL {
+height: 37px;
+ }
+
+ .email {
+  padding-left: 39.5%;
+ }
+  .email2 {
+    padding-left: 0;
+    margin-left: 0;
+  }
