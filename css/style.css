@@ -1007,24 +1007,17 @@ nav.primary a:active,nav.primary a.selected
 
 .newsletter h2
 {
-  color: #FFF0CE;
-    font-family: 'prima', lovelob,'Lobster',cursive;
+  color: #ffa500;
+    font-family: 'thin',cursive;
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
-    text-shadow: -2px 3px 1px #000000;
-  line-height:30px;
+    text-shadow: -1px 2px 2px #000000;
+    line-height:30px;
+    padding: 10px;
 }
 
-.pricing {
-    margin-bottom: 20px;
-    text-align: center;
-    border:solid 5px #fff;
-}
-.pricing h3 {
-    margin-bottom: 60px;
-    margin-top: 70px;
-}
+
 p.p-name {
 font-family: 'prima', 'Oswald', sans-serif;
     color: #FFFFFF;
@@ -1033,33 +1026,12 @@ font-family: 'prima', 'Oswald', sans-serif;
     padding: 24px 0px 20px 0px;
     text-transform: uppercase;
 }
-p.p-price {
-    background: #fff;
-    color: #000;
-    font-size: 42px;
-    margin: 0;
-    padding: 30px 0 30px 0;
-    text-transform: uppercase;
-  font-family: 'Droid Serif', serif;
-}
+
 span.p-small {
     color: #A0A0A0;
     font-size: 14px;
 }
-.pricing ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-}
-.pricing ul li {
-  font-family: 'Droid Serif', serif;
-    border-bottom: 1px solid #fff;
-    color: #fff;
-    font-size: 14px;
-    margin: 0;
-    padding: 15px 0;
-    text-transform: uppercase;
-}
+
 .signup {
     padding: 20px 0;
 }
@@ -1841,10 +1813,7 @@ fieldset h1
     font-size: 18px;
     line-height: 24px;
   }
-  .newsletter h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
+
   .twitter h2 {
     font-size: 18px;
     line-height: 24px;
