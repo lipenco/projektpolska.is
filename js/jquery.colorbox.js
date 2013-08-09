@@ -34,8 +34,8 @@
     className: false,
 
     current: "image {current} of {total}",
-    previous: "previous",
-    next: "next",
+    previous: "",
+    next: "",
     close: "close",
     xhrError: "This content failed to load.",
     imgError: "This image failed to load.",
@@ -344,8 +344,8 @@
       $content = $tag(div, "Content").append(
         $title = $tag(div, "Title"),
         $current = $tag(div, "Current"),
-        $next = $tag(div, "Next"),
-        $prev = $tag(div, "Previous"),
+        $next = $tag(div, ""),
+        $prev = $tag(div, ""),
         $slideshow = $tag(div, "Slideshow").bind(event_open, slideshow),
         $close = $tag(div, "Close")
       );
