@@ -1,8 +1,17 @@
 @charset utf-8;
 
-/*font-family: 'Oswald', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Lobster Two', cursive;*/
+
+
+@font-face {
+    font-family: 'thin';
+    src: url('../fonts/Exo-Thin.otf');   
+   }
+
+@font-face {
+    font-family: 'prima';
+    src: url('../fonts/Exo-Regular.otf'); 
+
+   }
 
 @media (min-width: 1200px) {
   .span12,.container
@@ -24,6 +33,7 @@ html,body
   margin:0;
   padding:0;
   width:100%;
+
 }
 
 body
@@ -106,7 +116,7 @@ input.newsletter-email
   background:#fff;
   color:#C4C4C4;
   float:left;
-  font-family:helvetica,"Muli",sans-serif , arial;
+  font-family:'prima', sans-serif , arial;
   font-size:18px;
   margin-right:20px;
   margin-top:0;
@@ -122,7 +132,7 @@ input.newsletter-email
   color:#ffa500;
   cursor:pointer;
   display:inline-block;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'thin',  sans-serif;
   text-transform: uppercase;
   font-size:18px;
   height:46px;
@@ -161,8 +171,7 @@ input.newsletter-email
 p
 {
   color:#fff;
-  font-family: 'Droid Serif', serif;
-  
+  font-family: 'prima', serif;
   font-size:14px;
   line-height:21px;
 }
@@ -176,7 +185,7 @@ p
 
 {
   color:#ffa500!important;
-  font-family: 'prima', lovelo, 'Oswald', sans-serif;
+  font-family: 'thin', sans-serif;
   text-transform: uppercase;
   font-size:4em;
   font-weight:400;
@@ -194,20 +203,7 @@ p
   text-align: center;
 }
 
-  @font-face {
-        font-family: lovelo;
-        src: url('../lovelo/Lovelo.otf');   
-       }
 
-  @font-face {
-        font-family: lovelob;
-        src: url('../lovelo/Lovelo2.otf');   
-       }
-
- @font-face {
-        font-family: 'prima';
-        src: url('../lovelo/Prima.ttf');   
-       }
 
 .promo-text
 {
@@ -1274,12 +1270,12 @@ p.milestones-date
 }
 .tweet-note
 {
-  color: #FFF0CE;
-    font-family: 'prima', lovelob, 'Lobster',cursive;
+  color: #ffa500;
+    font-family: 'thin',cursive;
     font-size: 36px;
     font-weight: 400;
     line-height: 42px;
-    text-shadow: -2px 3px 1px #000000;
+    text-shadow: -1px 1px 1px #000000;
   line-height:30px;
   text-align: center;
   margin-bottom: 30px;
@@ -1481,7 +1477,7 @@ fieldset h1
 {
   border-bottom:1px solid #363942;
   color:#ffa500!important;
-  font-family: 'prima', lovelo, 'Oswald', sans-serif;
+  font-family: 'thin', sans-serif;
   text-transform: uppercase;
   font-size:72px;
   font-weight:400;
@@ -1489,7 +1485,7 @@ fieldset h1
   margin-bottom:40px;
   padding-bottom:30px;
   text-decoration:none;
-    text-shadow: -2px 5px 1px #847557;
+    text-shadow: -1px 2px 1px #847557;
 }
 
 .contactus h1 > span
@@ -1825,7 +1821,7 @@ fieldset h1
   .in-slide-inner h1 {
     margin-top: 60px;
     color: #FFFFFF;
-    font-family: 'prima', lovelo, 'Lobster', cursive;
+    font-family: 'thin', cursive;
     font-size: 72px;
     line-height: 70px;
     text-transform: uppercase;
@@ -1834,7 +1830,7 @@ fieldset h1
   .in-slide-inner p {
   background: none;
     color: #FFFFFF !important;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'thin', sans-serif;
     font-size: 16px;
     line-height: 22px;
     margin-top: 10px;
