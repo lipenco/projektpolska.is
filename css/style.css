@@ -361,8 +361,7 @@ p
 
 #testimonials
 {
-  color:#fff;
-  margin-top:100px;
+  margin-top:140px;
 }
 
 #query
@@ -747,12 +746,8 @@ font-weight: normal;
 
 
 
-.portfolio
-{
-  margin-bottom:0;
-  margin-left:0!important;
-  width:100.3%;
-}
+
+
 
 .blogi {
    border:solid 1px #ffa500;
@@ -807,17 +802,8 @@ nav.primary a:active,nav.primary a.selected
 
 }
 
-.portfolio a
-{
-  display:block;
-  text-decoration:none;
-}
 
-.portfolio img
-{
-  display:block;
-  height:auto;
-}
+
 
 .view .mask
 {
@@ -940,27 +926,22 @@ nav.primary a:active,nav.primary a.selected
   color:#000;
 }
 
-.newsletter h2, .dolacz h2 , .zapisz h2
+.newsletter h2, .dolacz h2 , .zapisz h2, .zglos h2
 {
   color: #ffa500;
     font-family: 'thin',cursive;
     font-size: 36px;
     font-weight: 400;
-    line-height: 42px;
     text-shadow: -1px 2px 2px #000000;
-  margin-top:150px;
-  margin-bottom: 1.5em;
+  margin-top:30px;
+  margin-bottom: 1em;
   line-height: 1.1em;
 }
 
-.dolacz h2  {
-   margin-top:20px;
+.zglos h2 {
+   margin-top:60px;
 }
 
-.zapisz h2
-{
-   margin-top:20px;
- }
 
 p.p-name {
 font-family: 'prima', 'Oswald', sans-serif;
@@ -1606,9 +1587,7 @@ fieldset h1
   .sub-title, .span4, .span6{
     text-align: center;
   }
-  #testimonials {
-    margin-top: 50px;
-  }
+ 
   #newsletter {
     margin-top: 200px;
   }
