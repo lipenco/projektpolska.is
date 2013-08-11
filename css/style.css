@@ -224,7 +224,7 @@ p
   padding-bottom: 20px;
 }
 
-.promo-text-bullets > p
+.promo-text-bullets  p
 {
   color: #847557;
   font-family: 'medium', serif;
@@ -234,9 +234,9 @@ p
 
 }
 
-.promo-text-bullets > p img
+.promo-text-bullets  p img
 {
-  width: 80px;
+  width: 100px;
   margin-right: 0.5em;
 }
 
