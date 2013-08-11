@@ -66,18 +66,7 @@ body
   color:#fff!important;
 }
 
-.bg-red{
-  background: #738458;
-}
-.bg-green{
-  background: #738458;
-}
-.bg-blue{
-  background: #738458;
-}
-.bg-orange{
-  background: #738458;
-}
+
 .btn-small
 {
   background:#86B8B7;
@@ -142,7 +131,7 @@ input .newsletter-email
   font-size:18px;
   height:46px;
   line-height:46px;
-  padding:0 25px;
+  padding: 0 25px;
   text-align:center;
   text-shadow:none;
   transition:all .3s ease 0;
@@ -766,7 +755,7 @@ font-weight: normal;
 }
 
 .blogi {
-   border:solid 2px #ffa500;
+   border:solid 1px #ffa500;
    padding: 20px;
   }
 
@@ -1159,42 +1148,11 @@ p.milestones-date
     font-weight: normal;
   font-family: 'Droid Serif', serif;
   }
-  .milestone-item > h4{
-    text-align: center;
-    color: #fff !important;
-    background: url("../images/elements/line-bg.png") repeat-x scroll center center transparent;
-    color: #FFFFFF;
-    font-family: 'prima', lovelob, 'Lobster',cursive;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 80px;
-    margin-bottom: 10px;
-    text-shadow: -2px 3px 1px #847557;
-}
-  }
+ 
 
 
-.twitter h2
-{
-  color:#fff;
-  font-weight:700;
-  line-height:45px;
-  margin-bottom:20px;
-  text-align:center;
-}
-
-.twitter p
-{
-  font-weight:700;
-  text-align:center;
-}
 
 
-.twitter-image
-{
-  margin:0 auto 30px;
-  width:60px;
-}
 .tweet-note
 {
   color: #ffa500;
@@ -1207,15 +1165,8 @@ p.milestones-date
   text-align: center;
   margin-bottom: 30px;
 }
-.tweet-info{
-    line-height: 58px;
-  background: url('../images/elements/ribbon.png') center center no-repeat !important;
-}
-#map_canvas
-{
-  height:500px;
-  width:100%;
-}
+
+
 
 input
 {
@@ -1878,7 +1829,7 @@ fieldset h1
 /*Section BGs*/
 #blog{
   background: url('../img/nav-bag20.png') repeat ;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
@@ -1886,7 +1837,7 @@ fieldset h1
 }
 #projects{
   background: url('../img/nav-bag25.png') repeat;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   padding-top: 40px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
@@ -1894,7 +1845,7 @@ fieldset h1
 }
 #blogers{
   background: url('../img/nav-bag30.png') repeat;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   padding-top: 40px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
@@ -1902,7 +1853,7 @@ fieldset h1
 }
 #partners{
   background: url('../img/nav-bag20.png') repeat;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
    padding-top: 40px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
@@ -1910,7 +1861,7 @@ fieldset h1
 }
 #contact{
   background: url('../img/nav-bag30.png') repeat;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
    padding-top: 40px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
@@ -1997,7 +1948,7 @@ p.rss-title {padding:1em;}
 
 .rss-item a:hover {
    color:#ffa500;
-  font-family: 'prima', lovelob,'Lobster', cursive;
+  font-family: 'prima',cursive;
   
   font-size:24px;
   padding:20px 6px 15px;
@@ -2098,3 +2049,18 @@ height: 37px;
     padding-left: 0;
     margin-left: 0;
   }
+
+
+.fb-like-box {
+border: 1px solid #ffa500;
+}
+
+
+.gf-title {
+  font-family: 'thin', serif;
+  font-size: 1.4em;
+  color: #ffa500;
+  text-shadow: -1px 1px 1px #847557;
+  padding-top: 5px;
+
+}
