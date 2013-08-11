@@ -227,9 +227,8 @@ p
   line-height: 80px;
   margin-bottom: 10px;
   font-weight:400;
-  font-family: 'prima', lovelob, 'Lobster', cursive;
-  text-shadow:-2px 3px 1px #847557;
-  background: url('../images/elements/line-bg.png') center center repeat-x;
+  font-family: 'thin', lovelob, 'Lobster', cursive;
+  text-shadow:-1px 1px 1px #847557;
 }
 
 .subp{
