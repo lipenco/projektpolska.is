@@ -144,6 +144,7 @@ input.newsletter-email
   text-align:center;
   text-shadow:none;
   transition:all .3s ease 0;
+  margin-bottom: 20px;
 }
 
 .btn-orange:hover
@@ -228,13 +229,15 @@ p
 {
   color: #847557;
   font-family: 'medium', serif;
-  font-size:1.6em;
-  line-height: 2.5em;
+  font-size:1.7em;
+  line-height: 1.8em;
   font-weight: 700;
+  padding-top: 15px;
+ padding-bottom: 20px;
 
 }
 
-.promo-text-bullets  p img
+.promo-text-bullets  img
 {
   width: 100px;
   margin-right: 0.5em;
