@@ -1,6 +1,9 @@
 @charset utf-8;
 
-
+@font-face {
+    font-family: 'medium';
+    src: url('../fonts/Exo-Medium.otf');   
+   }
 
 @font-face {
     font-family: 'thin';
@@ -145,7 +148,7 @@ input.newsletter-email
 
 .btn-orange:hover
 {
-  background:#000!important;
+  
   border-radius:0;
   color:#eee;
 }
@@ -214,10 +217,36 @@ p
 {
   color: #847557;
   font-family: 'prima', 'Droid Serif', serif;
-  font-size:1.25em;
+  font-size:1.4em;
+  line-height: 1.5em;
   font-weight:300;
   text-align: justify;
   padding-bottom: 20px;
+}
+
+.promo-text-bullets > p
+{
+  color: #847557;
+  font-family: 'medium', serif;
+  font-size:1.6em;
+  line-height: 2.5em;
+  font-weight: 700;
+
+}
+
+.promo-text-bullets > p img
+{
+  width: 80px;
+  margin-right: 0.5em;
+}
+
+
+
+
+.promo-text-bullets {
+  padding-top: 16px;
+ padding-bottom: 20px;
+
 }
 
 .sub-title
