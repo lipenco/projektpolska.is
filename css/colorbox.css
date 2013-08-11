@@ -42,4 +42,17 @@ font-family: 'prima', sans-serif;
         #cboxClose{background:url(../img/close_hover.png) no-repeat #333; right:20px; margin-top:20px; position:fixed; border-radius: 50%;}
         #cboxClose:hover{background:url(../img/close_hover.png) no-repeat #555555;}
     
+    #colorbox p {
+  color: #847557;
+  font-family: 'prima', 'Droid Serif', serif;
+  font-size:1.5em;
+  line-height: 1.6em;
+  font-weight:300;
+  text-align: justify;
+  padding-bottom: 20px;
+    }
+
+#colorbox p a{
+   color:  #ffa500
+}
 
