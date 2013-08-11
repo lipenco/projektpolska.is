@@ -772,7 +772,7 @@ font-weight: normal;
 
 #content {
   overflow: auto;
-  height: 600px;
+  height: 500px;
 }
 
 nav.primary
@@ -951,7 +951,7 @@ nav.primary a:active,nav.primary a.selected
   color:#000;
 }
 
-.newsletter h2, .dolacz h2 
+.newsletter h2, .dolacz h2 , .zapisz h2
 {
   color: #ffa500;
     font-family: 'thin',cursive;
@@ -967,6 +967,11 @@ nav.primary a:active,nav.primary a.selected
 .dolacz h2  {
    margin-top:20px;
 }
+
+.zapisz h2
+{
+   margin-top:20px;
+ }
 
 p.p-name {
 font-family: 'prima', 'Oswald', sans-serif;
