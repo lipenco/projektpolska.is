@@ -114,7 +114,9 @@ h3.newsletter
   margin-top:5px;
 }
 
-input.newsletter-email
+
+
+input .newsletter-email
 {
   background:#fff;
   color:#C4C4C4;
@@ -214,7 +216,7 @@ p
   margin-top:20px;
 }
 
-.promo-text > p
+.promo-text > p, .promo-text h3
 {
   color: #847557;
   font-family: 'prima', 'Droid Serif', serif;
@@ -224,6 +226,11 @@ p
   text-align: justify;
   padding-bottom: 20px;
 }
+
+.promo-text h3 {
+   font-size:1.6em;
+}
+
 
 .promo-text-bullets  p
 {
@@ -241,7 +248,24 @@ p
 {
   width: 100px;
   margin-right: 0.5em;
+  -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
 }
+
+.promo-text-bullets img:hover {
+ -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transition: all 1.7s ease-in-out;
+    -moz-transition: all 1.7s ease-in-out;
+    -ms-transition: all 1.7s ease-in-out;
+    -o-transition: all 1.7s ease-in-out;
+    transition: all 1.7s ease-in-out;
+  }
 
 
 
@@ -927,7 +951,7 @@ nav.primary a:active,nav.primary a.selected
   color:#000;
 }
 
-.newsletter h2
+.newsletter h2, .dolacz h2 
 {
   color: #ffa500;
     font-family: 'thin',cursive;
@@ -935,10 +959,14 @@ nav.primary a:active,nav.primary a.selected
     font-weight: 400;
     line-height: 42px;
     text-shadow: -1px 2px 2px #000000;
-    line-height:30px;
-    padding: 10px;
+  margin-top:150px;
+  margin-bottom: 1.5em;
+  line-height: 1.1em;
 }
 
+.dolacz h2  {
+   margin-top:20px;
+}
 
 p.p-name {
 font-family: 'prima', 'Oswald', sans-serif;
