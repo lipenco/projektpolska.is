@@ -881,38 +881,28 @@ p.milestones-date {
     background: url('../img/contact.png');
 }
 
-.prev {
-    -moz-border-radius: 50px;
-    -o-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    background: url(../images/left.png) no-repeat scroll 26px 24px #fff;
-    border-radius: 50px;
-    float: left;
-    height: 30px;
-    padding: 20px;
-    width: 30px;
+.logo img {
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    transition: all 2s ease 0;
 }
 
-.prev:hover {
-    background: url(../images/left_hover.png) no-repeat scroll 26px 24px #B6665F;
+.logo2 img {
+    border-radius: 10px;
+    margin-left: 210px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    transition: all 2s ease 0;
 }
 
-.next {
-    -moz-border-radius: 50px;
-    -o-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    background: url(../images/right.png) no-repeat scroll 28px 24px #fff;
-    border-radius: 50px;
-    float: left;
-    height: 30px;
-    margin-left: 20px;
-    padding: 20px;
-    width: 30px;
+.logo:hover , .logo2:hover {
+    opacity: 0.7;
 }
 
-.next:hover {
-    background: url(../images/right_hover.png) no-repeat scroll 28px 24px #B6665F;
-}
 
 .milestones:hover .mask {
     opacity: 1;
