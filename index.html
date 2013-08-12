@@ -1,614 +1,486 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Iceland in Poland</title>
-  
-
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/extension.css" rel="stylesheet">
-    <link href="css/typography.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/colorbox.css" />
-    <link rel="stylesheet" href="css/flexslider.css"/>  
-    <link rel="stylesheet" href="css/style.css">
-   
-
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Droid+Serif:400,400italic,700,700italic|Lobster|Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'> 
-
-    <style>
-    .in-slide-content{
-        display: none;}
-    </style> 
-             <script src="//www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
-              <script type="text/javascript">       
-                            google.load("feeds", "1");
-                             function OnLoad() {
-                              // Create a feed control
-                              var feedControl = new google.feeds.FeedControl();
-                            
-                              // Add two feeds.
-                              feedControl.addFeed("http://islandiablog.blogspot.com/feeds/posts/default?alt=rss");
-                              feedControl.addFeed("http://naszaislandia.blogspot.com/feeds/posts/default?alt=rss");
-                              feedControl.addFeed("http://miniiceland.com/feed/");
-                              feedControl.addFeed("http://islandii.blogspot.com/feeds/posts/default?alt=rss");
-                              feedControl.addFeed("http://naszaislandia39.wordpress.com/feed/");
-
-                              // Draw it.
-                              feedControl.draw(document.getElementById("content"));
-                            }
-                            google.setOnLoadCallback(OnLoad);
-            </script>
-    
-</head>
-<body onLoad="initialize()">
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-    <ul class="mobile-header visible-phone visible-tablet"> 
-        <li>
-                <!-- Start Dropmenu for mobile -->  
-                <select class="dropmenu" name="dropmenu" onChange="moveTo(this.value)">
-                    <option value="" selected="selected">Main Navigation</option>
-                    <option value="#index">Home</option>
-                    <option value="#blog">Blog</option>
-                    <option value="#projects">Porojekty</option>
-                    <option value="#blogers">Blogerzy</option>
-                    <option value="#partners">Partnerzy</option>
-                    <option value="#contact">Kontact</option> 
-                </select>
-                <!-- End Dropmenu for mobile -->
-        </li>
-    </ul>
-    
-    
-    <!-- Home Page-->
-    <div id="index">    
-    
-
-       
-        
-        
-        <img  alt="" id="cycle-loader" src="img/loading.gif"  />
-        
-        
-        
-        <!-- Full Screen Slider-->
-        <div id="maximage" class="">
-        
-        
-            <div>
-                <img class="cover"   src="img/25.jpg"  />
-
-                <div class="in-slide-content">
-                    <div class="in-slide-inner">
-                         <!-- <h1 class="white">Projekt <span>Polska.is</span></h1> -->
-                         <img  src="graf/logo2.png" />
-                    </div>
-                </div>
-            </div>
-            
-              
-            <div>
-                <img class="cover"  src="img/25b.png"   />
-         
-                <div class="in-slide-content">
-                    <div class="in-slide-inner">
-                        <img title="" alt="" src="graf/logo2.png" />
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <img class="cover"  src="img/25d.png"   />
-           
-                <div class="in-slide-content">
-                    <div class="in-slide-inner">
-                        <img title="" alt="" src="graf/logo2.png" />
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            <div>
-                <img class="cover"  alt="" src="img/25c.png"    />
-                <div class="pattern"></div>
-                <div class="in-slide-content">
-                    <div class="in-slide-inner">
-                        <img title="" alt="" src="graf/logo2.png" />
-                        
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-        </div>
-        <!--/Full Screen Slider-->
-        
-
-    </div>
-    <!--/Home Page-->
-    
-    
-    <!-- Navigation-->
-
-    <nav id="navigation">
-    
-    
-        <ul id="menu" class="visible-desktop">
-            <li class="links">
-                <a id="about-linker" href="#blog">About</a>
-            </li>
-            <li class="links">
-                <a id="portfolio-linker" href="#projects">Porojekty</a>
-            </li>
-            <li class="links">
-                <a id="services-linker" href="#blogers">Blogerzy</a>
-            </li>
-            <li class="links">
-                <a id="milestones-linker" href="#partners">Partnerzy</a>
-            </li>
-            <li class="links">
-                <a id="contact-linker" href="#kontakt">Kontakt</a>
-            </li>
-         <!--     <li class="links">
-             <a id="contact-linker">Zgłoś dyskryminację</a>
-            </li> -->
-               <li class="links">
-                      <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację">Zgłoś dyskryminację</a> 
-                </li> 
-        </ul>
-      
-         <div class="skit5 row-fluid ">
-        <div class="skit22 drop-shadow"></div>
-
-    </div>
-
-    </nav>
-
- 
-
-
-    <!--/Navigation-->
-        
-    <!-- page:starts-->
-    </section>
-
-     
-    <section id="blog" class="container-fluid section page ">
-        <div class="row-fluid">
-            <section class="container">
-                <div class="row">
-                    <article class="span12 text-center main-title">
-                        <h1 class="white">Nasza Misja</h1>
-                        <img src="img/star.png"/>
-                    </article>
-                 </div>
-
-               <article>
-                <div class="text-center promo-text">
-                       <p>ProjektPolska.is to środowisko zrzeszające ludzi, którzy chcą budować kulturowy dialog pomiędzy Islandią a Polską.
-                        Stowarzyszenie powstało w pażdździerniku 2012 z inicjatywy kilkunastu Polaków związanych z Islandią - ludzi, którzy poczuli potrzebę działania na rzecz obu społeczności.</p> 
-                 </div>
-                
-                <div class="text-center promo-text-bullets row">
-                    <div class="span4">
-                       <img src="img/icon1.gif">   
-                       <p>Projektowanie wspólnej rzeczywistości </p>
-                    </div>
-                    <div class="span4">
-                       <img src="img/icon3.gif">  
-                       <p> Wspieranie niezależnych pomysłów</p>
-                       </div>
-                    <div class="span4">
-                        <img src="img/icon2.gif">  <p>
-                        Promowanie różnorodności międzykulturowej</p>  
-                       </div>
-                </div>
-                   <div class="row">
-                 
-                   </div>
-                </article>
-                   <div class="text-center">
-                     <a href="http://projektpolska.pl/wp-content/uploads/2011/05/Statut-Fundacji-ProjektPolska-GRUDZIEN-2011-ZMIANY-DG.pdf" class="btn-orange">Statut</a>
-                 </div>
-              
-         </div>
-         </div>
-
-
-                </section>
-              </div>
-            </section>
-             <div class="skit row-fluid">
-                <div class="skit2"></div>
-            </div>
-    <!--page:ends-->
-
-               
-    <!--page:ends-->
-
-
-    <!-- Separator1-->
-    <div class="parallax" id="separator1">
-         <div class="separator1-bg"></div>
-           <div class="patternless">
-
-            <section id="newsletter" class="zapisz container">
-                        <h2>Zapisz się na nasz newsletter. Badź na bierząco!</h2>  
-                        <form action="http://projektpolska.us7.list-manage.com/subscribe/post?u=2aebd7106f13d1bd619c139a8&amp;id=e5071d3724" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div class="row">
-                     <div class="span3 email">
-                        <input type="email" value=""  name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Twój e-mail">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                    <div class="span3 email2">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-orange">
-                        </form>
-                    </div>
-                </div>
-            </section>
+   <head>
+      <meta charset="utf-8">
+      <title>Iceland in Poland</title>
+      <!-- Le styles -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="css/extension.css" rel="stylesheet">
+      <link href="css/typography.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/colorbox.css"/>
+      <link rel="stylesheet" href="css/flexslider.css"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Droid+Serif:400,400italic,700,700italic|Lobster|Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+      <style>
+         .in-slide-content{
+         display: none;}
+      </style>
+      <script src="//www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
+      <script type="text/javascript">       
+         google.load("feeds", "1");
+          function OnLoad() {
+           // Create a feed control
+           var feedControl = new google.feeds.FeedControl();
+           // Add two feeds.
+           feedControl.addFeed("http://islandiablog.blogspot.com/feeds/posts/default?alt=rss");
+           feedControl.addFeed("http://naszaislandia.blogspot.com/feeds/posts/default?alt=rss");
+           feedControl.addFeed("http://miniiceland.com/feed/");
+           feedControl.addFeed("http://islandii.blogspot.com/feeds/posts/default?alt=rss");
+           feedControl.addFeed("http://naszaislandia39.wordpress.com/feed/");
+           // Draw it.
+           feedControl.draw(document.getElementById("content"));
+         }
+         google.setOnLoadCallback(OnLoad);
+      </script>
+   </head>
+   <body onload="initialize()">
+      <div id="fb-root">
       </div>
-    </div>
-
-    <!--/Separator1-->
-
-
-
-    <!-- page:starts-->
-    <div class="skit-top row-fluid">
-        <div class="skit3-top"></div>
-    </div>
-    <section id="projects" class="container-fluid section page">
-       
-            <section class="container">
-                <div class="row">
-                    <article class="span12 text-center main-title">
-                        <h1 class="white">Porojects</h1>
-                        <img  alt="" src="img/star.png"/>
-                    </article>
-                 </div>
-
-                 <div class="row">
-                    <article class="span12 text-center promo-text">
-                        <h3>Aktywnie działamy na rzeczy lokalnej społeczności oraz promocji Polski wśród obywateli Islandii.</h3>
-                    </article>
-                 </div>
-
-            </section>
-        </div>
-
-                       
-                        <!-- Portfolio List-->
-                    
-                        <ul class="portfolio">
-                            <li class="category1">
-                                <div class="view ">
-                                    <a class="group1" href="polishcouch.html" title="Polish Couch Talks">
-                                        <img class="big-img" alt="" src="img/polishcouch.png"   />             
-                                        <div class="mask">                    
-                                            <h3>Polish Couch</h3>
-                                            <h6>Projekt</h6>
-                                            
-                                        </div>
-                                    </a>
-                                </div>   
-                            </li>
-                            
-                            <li class="category1">
-                                <div class="view ">
-                                    <a class="group1" href="lampionywolnosci.html" title="Lampiony Wolności"><img  alt="" src="img/lampiony.png"   />          
-                                        <div class="mask">                    
-                                            <h3>Lampiony Wolności</h3>
-                                            <h6>Projekt</h6>
-                                            
-                                        </div>
-                                    </a>
-                                </div>   
-                            </li>
-                          
-                                   
-                            
-                            <li class="category1">
-                                <div class="view">
-                                    <a class="group1" href="video.html" title="Promo Video"><img  alt="" src="img/video.png"/>          
-                                        <div class="mask">                    
-                                            <h3>Promo Video</h3>
-                                            <h6>Projekt</h6>
-                                            
-                                        </div>
-                                    </a>                               
-                            </li>
-                            
-                            
-                            <li class="category1">
-                                <div class="view">
-                                    <a class="group1" href="dzien.html" title="Dzień Międzykulturowości"><img  alt="" src="img/miedzykulturo.png"  />           
-                                        <div class="mask">                    
-                                            <h3>Dzień Międzykulturowości</h3>
-                                            <h6>Projekt</h6>
-                                            
-                                        </div>
-                                    </a>
-                                </div>  
-                            </li> 
-                                                
-                        </ul>
-                          </div>  
-                        <!--/Portfolio List-->
-       
-    </section>
-     <div class="skit row-fluid">
-        <div class="skit2"></div>
-    </div>
-    <!--page:ends-->
-    
-    
-        
-    
-    <!-- Separator2-->
-    <div class="parallax" id="separator2">
-
-        <div class="patternless">
-        
-                <div class="row-fluid">
-                    <section id="testimonials" class="text-center newsletter">       
-                    <h2>Projekt Polska promuje polską kulturę na Islandii    </h2> <a href="mailto:projektpolska.is@gmail.com" class="btn-orange">Dołącz do nas</a>  
-
-                    </section>
-                </div>
-        </div>
-        <div class="separator2-bg"></div>
-    </div>
-    <!--/Separator2-->
-    
-    
-    
-    <!-- page:starts-->
-   <div class="skit-top row-fluid">
-        <div class="skit3-top"></div>
-    </div>
-    <section id="blogers" class="container-fluid section page">
-        <div class="row-fluid">
-            <section >
-                <div class="row">
-                    <article class="span12 text-center main-title">
-                        <h1 class="white">Media</h1>
-                        <img  src="img/star.png"/>
-                    </article>
-                 </div>
-
-                 <div class="row">
-                    <div class="container">
-                    <article class="span12 text-center promo-text container">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                    </article>
-                    </div>
-                 </div>
-
-                 <div class="row">
-                    <article class="span6">
-                        <h3 class="sub-title text-center">Blogerzy na Islandii</h3>
-                        
-                        <div id="content" class="blogi"> 
-                           
-               
-
-                        </div>
-                      
-
-
-                    </article>
-
-                     <article class="span6">
-                        <div> <h3 class="sub-title text-center">Facebook</h3>
-                            
-
-                       <div class="fb-like-box" data-href="https://www.facebook.com/projektpolska.is?ref=ts&amp;fref=ts"  data-height="540" data-show-faces="false" data-stream="true"  data-show-border="flase"  data-header="false"></div> </div>
-
-                        
-                    </article>
-                   
-                 </div>
-
-                
-            </section>
-        </div>
-    </section>
-     <div class="skit row-fluid">
-        <div class="skit2"></div>
-    </div>
-    <!--page:ends-->
-    
-    
-    
-    
-    
-    <!-- Separator3-->
-    <div class="parallax" id="separator3">
-      <div class="separator3-bg"></div>
-        <div class="patternless">
-            <section id="newsletter" class="zapisz container">
-                        <h2>Zapisz się na nasz newsletter. Badź na bierząco!</h2>  
-                        <form action="http://projektpolska.us7.list-manage.com/subscribe/post?u=2aebd7106f13d1bd619c139a8&amp;id=e5071d3724" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div class="row">
-                     <div class="span3 email">
-                        <input type="email" value=""  name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Twój e-mail">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                    <div class="span3 email2">
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-orange">
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </div>
-        
-    </div>
-    <!--/Separator3-->
-    
-   
-    
-    
-    
-    
-    
-    <!-- page:starts-->
-    <div class="skit-top row-fluid">
-        <div class="skit3-top"></div>
-    </div>
-    <section id="partners" class="container-fluid section page">
-        <div class="row-fluid">
-            <section class="container">
-                <div class="row">
-                    <article class="span12 text-center main-title">
-                        <h1 class="white">Our Partners</h1>
-                        <img title="designova" alt="" src="img/star.png"/>
-                    </article>
-                 </div>
-
-                 <div class="row">
-                    <article class="span12 text-center promo-text">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
-                    </article>
-                 </div>
-
-                 <div class="row">
-                    <article class="span12 add-top">
-                        
-
-                         <!-- milestones Carousel-->
-            <div class="list_carousel">
-            
-
-                <!-- milestones Navigation-->
-                <div id="milestones-navigation">              
-                    <a id="prev2" class="prev" href="#"></a>
-                    <a id="next2" class="next" href="#"></a>
-                    <a id="next2" class="next" href="#"></a>
-                </div>
-                <!-- milestones Navigation-->               
-                
-                
+      <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <ul class="mobile-header visible-phone visible-tablet">
+         <li>
+            <!-- Start Dropmenu for mobile -->
+            <select class="dropmenu" name="dropmenu" onchange="moveTo(this.value)">
+               <option value="" selected="selected">Main Navigation</option>
+               <option value="#index">Home</option>
+               <option value="#blog">Blog</option>
+               <option value="#projects">Porojekty</option>
+               <option value="#blogers">Blogerzy</option>
+               <option value="#partners">Partnerzy</option>
+               <option value="#contact">Kontact</option>
+            </select>
+            <!-- End Dropmenu for mobile -->
+         </li>
+      </ul>
+      <!-- Home Page-->
+      <div id="index">
+         <img alt="" id="cycle-loader" src="img/loading.gif"/>
+         <!-- Full Screen Slider-->
+         <div id="maximage" class="">
+            <div>
+               <img class="cover" src="img/25.jpg"/>
+               <div class="in-slide-content">
+                  <div class="in-slide-inner">
+                     <!-- <h1 class="white">Projekt <span>Polska.is</span></h1> -->
+                     <img src="graf/logo2.png"/>
+                  </div>
+               </div>
             </div>
-            <!--/milestones Carousel-->
-
-
-                    </article>
-
-                   
-
-                   
-                 </div>
-            </section>
-        </div>
-    </section>
-     <div class="skit row-fluid">
-        <div class="skit2"></div>
-    </div>
-    <!--page:ends-->
-    
-    
-    
-    
-    
-    <!-- Separator4-->
-    <div class="parallax" id="separator4">
-
-        <div class="patternless">
-             <section id="twitter" class="twitter container-fluid">
-                <div class="row-fluid">
-            <section id="testimonials" class="text-center zglos">       
-                <h2>Reaguj na dyskryminację obcokrajowców na Islandii </h2> <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację"> <div class="btn-orange">Zgłoś Dyskryminację</div></a>   
-          </section>
-                </div>
-            </section>
-        </div>
-        <div class="separator4-bg"></div>
-    </div>
-    <!--/Separator4-->
-    
-    
-    
-    <!--page:ends-->
-    
-    <!-- page:starts-->
-      <div class="skit-top row-fluid">
-        <div class="skit3-top"></div>
-    </div>
-    <section id="kontakt" class="footer container-fluid section">
-        <div class="row-fluid">
+            <div>
+               <img class="cover" src="img/25b.png"/>
+               <div class="in-slide-content">
+                  <div class="in-slide-inner">
+                     <img title="" alt="" src="graf/logo2.png"/>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <img class="cover" src="img/25d.png"/>
+               <div class="in-slide-content">
+                  <div class="in-slide-inner">
+                     <img title="" alt="" src="graf/logo2.png"/>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <img class="cover" alt="" src="img/25c.png"/>
+               <div class="pattern">
+               </div>
+               <div class="in-slide-content">
+                  <div class="in-slide-inner">
+                     <img title="" alt="" src="graf/logo2.png"/>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--/Full Screen Slider-->
+      </div>
+      <!--/Home Page-->
+      <!-- Navigation-->
+      <nav id="navigation">
+         <ul id="menu" class="visible-desktop">
+            <li class="links">
+               <a id="about-linker" href="#blog">About</a>
+            </li>
+            <li class="links">
+               <a id="portfolio-linker" href="#projects">Porojekty</a>
+            </li>
+            <li class="links">
+               <a id="services-linker" href="#blogers">Blogerzy</a>
+            </li>
+            <li class="links">
+               <a id="milestones-linker" href="#partners">Partnerzy</a>
+            </li>
+            <li class="links">
+               <a id="contact-linker" href="#kontakt">Kontakt</a>
+            </li>
+            <!--     <li class="links">
+               <a id="contact-linker">Zgłoś dyskryminację</a>
+               </li> -->
+            <li class="links">
+               <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację">Zgłoś dyskryminację</a>
+            </li>
+         </ul>
+         <div class="skit5 row-fluid ">
+            <div class="skit22 drop-shadow">
+            </div>
+         </div>
+      </nav>
+      <!--/Navigation-->
+      <!-- page:starts-->
+      </section>
+      <section id="blog" class="container-fluid section page ">
+         <div class="row-fluid">
             <section class="container">
-                <div class="row">
-                    <article class="contactus span12 text-center">
-                        <h1>Barmahlíð 32 <span></span> <br/>105 Reykjavík <span>|</span> Iceland</h1>
-           
-              
-                        <img  alt="" src="social/mail.png"/>
-                        <div class="add-bottom"><a href="#">projektpolska.is@gmail.com</div>
-                        <br/>
-                  
-                        <img  alt="" src="social/phone.png"/>
-                        <h2 class="add-bottom">+354 775 1682</h2>
-                   <br/>
-
-                         <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację"> <div class="btn-orange">Zgłoś Dyskryminację</div></a>
-                    </article>
-                 </div>
-
-
-                 
-
-                 <div class="row">
-                    <article class="span12">
-                        <div class="copyright text-center">        
-                            <p>Copyright &copy; 2013 Projekt: Polska - Iceland.<br/>Developed and designed by <a href="http://lipen.co/">Lipen.co</a></p>        
+               <div class="row">
+                  <article class="span12 text-center main-title">
+                     <h1 class="white">Nasza Misja</h1>
+                     <img src="img/star.png"/>
+                  </article>
+               </div>
+               <article>
+                  <div class="text-center promo-text">
+                     <p>
+                        ProjektPolska.is to środowisko zrzeszające ludzi, którzy chcą budować kulturowy dialog pomiędzy Islandią a Polską. Stowarzyszenie powstało w pażdździerniku 2012 z inicjatywy kilkunastu Polaków związanych z Islandią - ludzi, którzy poczuli potrzebę działania na rzecz obu społeczności.
+                     </p>
+                  </div>
+                  <div class="text-center promo-text-bullets row">
+                     <div class="span4">
+                        <img src="img/icon1.gif">
+                        <p>
+                           Projektowanie wspólnej rzeczywistości
+                        </p>
+                     </div>
+                     <div class="span4">
+                        <img src="img/icon3.gif">
+                        <p>
+                           Wspieranie niezależnych pomysłów
+                        </p>
+                     </div>
+                     <div class="span4">
+                        <img src="img/icon2.gif">
+                        <p>
+                           Promowanie różnorodności międzykulturowej
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                  </div>
+               </article>
+               <div class="text-center">
+                  <a href="http://projektpolska.pl/wp-content/uploads/2011/05/Statut-Fundacji-ProjektPolska-GRUDZIEN-2011-ZMIANY-DG.pdf" class="btn-orange">Statut</a>
+               </div>
+         </section>
+      </section>
+      <div class="skit row-fluid">
+         <div class="skit2">
+         </div>
+      </div>
+      <!--page:ends-->
+      <!--page:ends-->
+      <!-- Separator1-->
+      <div class="parallax" id="separator1">
+         <div class="separator1-bg">
+         </div>
+         <div class="patternless">
+            <section id="newsletter" class="zapisz container">
+               <h2>Zapisz się na nasz newsletter. Badź na bierząco!</h2>
+               <form action="http://projektpolska.us7.list-manage.com/subscribe/post?u=2aebd7106f13d1bd619c139a8&amp;id=e5071d3724" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row">
+                     <div class="span3 email">
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Twój e-mail">
+                        <div class="response" id="mce-error-response" style="display:none">
                         </div>
-                    </article>
-                 </div>
-
+                        <div class="response" id="mce-success-response" style="display:none">
+                        </div>
+                     </div>
+                     <div class="span3 email2">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-orange">
+               </form>
             </section>
-        </div>
-    </section>
-     <div class="skit row-fluid">
-        <div class="skit2"></div>
-    </div>
-    <!--page:ends-->
-
-     
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
-    <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-    <script src="js/jquery.sticky.js" type="text/javascript"></script>
-    <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-    <script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
-    <script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
-    <script src="js/jquery.colorbox.js" type="text/javascript"></script>    
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
-    <script src="js/jquery.maximage.js" type="text/javascript"></script>
-    <script src="js/scroll.js" type="text/javascript"></script> 
-    <script src="js/waypoints.min.js"></script>   
-    <script src="js/script.js" type="text/javascript"></script>
-    <!-- Mobile Navigation Scroll Setup -->
-    <script type="text/javascript">
-        function moveTo(contentArea){
-            var goPosition = $(contentArea).offset().top;
-            $('html,body').animate({ scrollTop: goPosition}, 'slow');
-        }
-    </script>
-</body>
+         </div>
+      </div>
+      <!--/Separator1-->
+      <!-- page:starts-->
+      <div class="skit-top row-fluid">
+         <div class="skit3-top">
+         </div>
+      </div>
+      <section id="projects" class="container-fluid section page">
+         <section class="container">
+            <div class="row">
+               <article class="span12 text-center main-title">
+                  <h1 class="white">Porojects</h1>
+                  <img alt="" src="img/star.png"/>
+               </article>
+            </div>
+            <div class="row">
+               <article class="span12 text-center promo-text">
+                  <h3>Aktywnie działamy na rzeczy lokalnej społeczności oraz promocji Polski wśród obywateli Islandii.</h3>
+               </article>
+            </div>
+         </section>
+         <!-- Portfolio List-->
+         <div class="container">
+            <ul class="portfolio">
+               <li class="category1">
+                  <div class="view ">
+                     <a class="group1" href="polishcouch.html" title="Polish Couch Talks">
+                        <img class="big-img" alt="" src="img/polishcouch.png"/>
+                        <div class="mask">
+                           <h3>Polish Couch</h3>
+                           <h6>Projekt</h6>
+                        </div>
+                     </a>
+                  </div>
+               </li>
+               <li class="category1">
+                  <div class="view ">
+                     <a class="group1" href="lampionywolnosci.html" title="Lampiony Wolności">
+                        <img alt="" src="img/lampiony.png"/>
+                        <div class="mask">
+                           <h3>Lampiony Wolności</h3>
+                           <h6>Projekt</h6>
+                        </div>
+                     </a>
+                  </div>
+               </li>
+               <li class="category1">
+                  <div class="view">
+                     <a class="group1" href="video.html" title="Promo Video">
+                        <img alt="" src="img/video.png"/>
+                        <div class="mask">
+                           <h3>Promo Video</h3>
+                           <h6>Projekt</h6>
+                        </div>
+                     </a>
+               </li>
+               <li class="category1">
+               <div class="view">
+                    <a class="group1" href="dzien.html" title="Dzień Międzykulturowości">
+                      <img alt="" src="img/miedzykulturo.png"/>
+                        <div class="mask">
+                              <h3>Dzień Międzykulturowości</h3>
+                              <h6>Projekt</h6>
+                        </div>
+                    </a>
+               </div>
+               </li>
+            </ul>
+            </div>
+         </div>
+         <!--/Portfolio List-->
+      </section>
+      <div class="skit row-fluid">
+         <div class="skit2">
+         </div>
+      </div>
+      <!--page:ends-->
+      <!-- Separator2-->
+      <div class="parallax" id="separator2">
+         <div class="patternless">
+            <div class="row-fluid">
+               <section id="testimonials" class="text-center newsletter">
+                  <h2>Projekt Polska promuje polską kulturę na Islandii </h2>
+                  <a href="mailto:projektpolska.is@gmail.com" class="btn-orange">Dołącz do nas</a>
+               </section>
+            </div>
+         </div>
+         <div class="separator2-bg">
+         </div>
+      </div>
+      <!--/Separator2-->
+      <!-- page:starts-->
+      <div class="skit-top row-fluid">
+         <div class="skit3-top">
+         </div>
+      </div>
+      <section id="blogers" class="container-fluid section page">
+         <div class="row-fluid container">
+            <section>
+               <div class="row">
+                  <article class="span6">
+                     <h3 class="sub-title text-center">Blogerzy na Islandii</h3>
+                     <div id="content" class="blogi">
+                     </div>
+                  </article>
+                  <article class="span6">
+                     <div>
+                        <h3 class="sub-title text-center">Facebook</h3>
+                        <div class="fb-like-box" data-href="https://www.facebook.com/projektpolska.is?ref=ts&amp;fref=ts" data-height="540" data-show-faces="false" data-stream="true" data-show-border="flase" data-header="false">
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </section>
+         </div>
+      </section>
+      <div class="skit row-fluid">
+         <div class="skit2">
+         </div>
+      </div>
+      <!--page:ends-->
+      <!-- Separator3-->
+      <div class="parallax" id="separator3">
+         <div class="separator3-bg">
+         </div>
+         <div class="patternless">
+            <section id="newsletter" class="zapisz container">
+               <h2>Zapisz się na nasz newsletter. Badź na bierząco!</h2>
+               <form action="http://projektpolska.us7.list-manage.com/subscribe/post?u=2aebd7106f13d1bd619c139a8&amp;id=e5071d3724" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row">
+                     <div class="span3 email">
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Twój e-mail">
+                        <div class="response" id="mce-error-response" style="display:none">
+                        </div>
+                        <div class="response" id="mce-success-response" style="display:none">
+                        </div>
+                     </div>
+                     <div class="span3 email2">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-orange">
+               </form>
+            </section>
+         </div>
+      </div>
+      <!--/Separator3-->
+      <!-- page:starts-->
+      <div class="skit-top row-fluid">
+         <div class="skit3-top">
+         </div>
+      </div>
+      <section id="partners" class="container-fluid section page">
+         <div class="row-fluid">
+            <section class="container">
+               <div class="row">
+                  <article class="span12 text-center main-title">
+                     <h1 class="white">Our Partners</h1>
+                     <img title="designova" alt="" src="img/star.png"/>
+                  </article>
+               </div>
+               <div class="row">
+                  <article class="span12 text-center promo-text">
+                     <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                     </p>
+                  </article>
+               </div>
+               <div class="row">
+                  <article class="span12 add-top">
+                     <!-- milestones Carousel-->
+                     <div class="list_carousel">
+                        <!-- milestones Navigation-->
+                        <div id="milestones-navigation">
+                           <a id="prev2" class="prev" href="#"></a>
+                           <a id="next2" class="next" href="#"></a>
+                           <a id="next2" class="next" href="#"></a>
+                        </div>
+                        <!-- milestones Navigation-->
+                     </div>
+                     <!--/milestones Carousel-->
+                  </article>
+               </div>
+            </section>
+         </div>
+      </section>
+      <div class="skit row-fluid">
+         <div class="skit2">
+         </div>
+      </div>
+      <!--page:ends-->
+      <!-- Separator4-->
+      <div class="parallax" id="separator4">
+         <div class="patternless">
+            <section id="twitter" class="twitter container-fluid">
+               <div class="row-fluid">
+                  <section id="testimonials" class="text-center zglos">
+                     <h2>Reaguj na dyskryminację obcokrajowców na Islandii </h2>
+                     <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację">
+                        <div class="btn-orange">
+                           Zgłoś Dyskryminację
+                        </div>
+                     </a>
+                  </section>
+               </div>
+            </section>
+         </div>
+         <div class="separator4-bg">
+         </div>
+      </div>
+      <!--/Separator4-->
+      <!--page:ends-->
+      <!-- page:starts-->
+      <div class="skit-top row-fluid">
+         <div class="skit3-top">
+         </div>
+      </div>
+      <section id="kontakt" class="footer container-fluid section">
+         <div class="row-fluid">
+            <section class="container">
+               <div class="row">
+                  <article class="contactus span12 text-center">
+                     <h1>Barmahlíð 32 <span></span><br/>105 Reykjavík <span>|</span> Iceland</h1>
+                     <img alt="" src="social/mail.png"/>
+                     <div class="add-bottom">
+                        <a href="#">
+                           projektpolska.is@gmail.com
+                     </div>
+                     <br/>
+                     <img alt="" src="social/phone.png"/>
+                     <h2 class="add-bottom">+354 775 1682</h2>
+                     <br/>
+                     <a id="contact-linker" class="group1" href="dyskryminacja.html" title="Zgłoś Dyskryminację">
+                        <div class="btn-orange">
+                           Zgłoś Dyskryminację
+                        </div>
+                     </a>
+                  </article>
+               </div>
+               <div class="row">
+                  <article class="span12">
+                     <div class="copyright text-center">
+                        <p>
+                           Copyright &copy; 2013 Projekt: Polska - Iceland.<br/>Developed and designed by <a href="http://lipen.co/">Lipen.co</a>
+                        </p>
+                     </div>
+                  </article>
+               </div>
+            </section>
+         </div>
+      </section>
+      <div class="skit row-fluid">
+         <div class="skit2">
+         </div>
+      </div>
+      <!--page:ends-->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
+      <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+      <script src="js/jquery.sticky.js" type="text/javascript"></script>
+      <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+      <script src="js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+      <script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
+      <script src="js/jquery.colorbox.js" type="text/javascript"></script>
+      <script defer src="js/jquery.flexslider.js"></script>
+      <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+      <script src="js/jquery.maximage.js" type="text/javascript"></script>
+      <script src="js/scroll.js" type="text/javascript"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <!-- Mobile Navigation Scroll Setup -->
+      <script type="text/javascript">
+         function moveTo(contentArea){
+             var goPosition = $(contentArea).offset().top;
+             $('html,body').animate({ scrollTop: goPosition}, 'slow');
+         }
+      </script>
+   </body>
 </html>
