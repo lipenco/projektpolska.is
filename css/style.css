@@ -1176,33 +1176,35 @@ fieldset h1 {
 @media only screen and (max-width:1500px) {
     .portfolio {
         width: 100%;
+        margin-left: 9%;
     }
 
     .portfolio li {
         margin: 0 auto;
-        width: 49%;
+        width: 41%;
     };
 }
 
 @media only screen and (max-width:1300px) {
     .portfolio {
         width: 100%;
+        margin-left: 9%;
     }
-
     .portfolio li {
         margin: 0 auto;
-        width: 49%;
+        width: 41%;   
     };
 }
 
 @media only screen and (max-width:1024px) {
     .portfolio {
         width: 100%;
+
     }
 
     .portfolio li {
         margin: 0 auto;
-        width: 49%;
+        width: 41%;
     }
 
     .separator1-bg {
@@ -1251,6 +1253,11 @@ fieldset h1 {
         line-height: 30px;
         margin-top: 30px;
         z-index: 20;
+    }
+
+    .portfolio {
+        width: 100%;
+        margin-left: 0;
     }
 
     .separator1-bg {
