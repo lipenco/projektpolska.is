@@ -317,7 +317,7 @@ p {
 }
 
 #newsletter {
-    margin-top: 130px;
+    margin-top: 8%;
 }
 
 .projects-filters {
@@ -376,7 +376,7 @@ p {
 .separator1-bg {
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background: url('../img/555.png') 0 0 no-repeat fixed;
+    background: url(../img/25b.png) 0 0 no-repeat fixed;
     background-size: cover;
     height: 100%;
     position: absolute;
@@ -796,6 +796,8 @@ nav.primary a:active,nav.primary a.selected {
 .zglos h2 {
     margin-top: 60px;
 }
+
+
 
 p.p-name {
     font-family: 'prima', 'Oswald', sans-serif;
@@ -1802,3 +1804,15 @@ p.rss-title {
     text-shadow: -1px 1px 1px #847557;
     padding-top: 5px;
 }
+
+#slider-code { height: 203px; overflow:hidden; }
+#slider-code .viewport { float: left; width: 80%; 
+height: 203px; overflow: hidden; position: relative; }
+#slider-code .btn-orange { display: block; margin: 80px 10px 0 0; float: left; }
+#slider-code .next { margin: 80px 0 0 10px;  }
+#slider-code .disable { visibility: hidden; }
+#slider-code .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#slider-code .overview li { float: left; margin: 0 20px 0 0; padding: 1px; 
+    height: 203px;  width: 750px;}
+#slider-code .overview li img { float: left; margin: 0 20px 0 0; padding: 1px; 
+    height: 200px;  width: 200px; border-radius: 50%;}

@@ -216,62 +216,9 @@ function calculateScroll() {
 
   });
   
-  
-  
-/*===========================================================*/
-/*  Carousel
-/*===========================================================*/
-$(function() {
 
-            
-
-            //  Scrolled by user interaction
-            $('#milestones-carousel').carouFredSel({
-                auto: false,
-        width: '100%',
-        prev : {
-              button      : "#prev2",
-              key         : "left",
-              items       : 1,
-              duration    : 750
-            },
-        next : {
-          button      : "#next2",
-          key         : "right",
-          items       : 1,
-          duration    : 750
-        },        
-                mousewheel: false,
-                swipe: {
-                    onMouse: false,
-                    onTouch: true
-                }
-            });
-      
-      
-      $('#testimonials-carousel').carouFredSel({
-                auto: true,
-        prev : {
-              button      : "#prev",
-              key         : "left",
-              items       : 1,
-              duration    : 750
-            },
-        next : {
-          button      : "#next",
-          key         : "right",
-          items       : 1,
-          duration    : 750
-        },
-        
-                mousewheel: false,
-                swipe: {
-                    onMouse: false,
-                    onTouch: true
-                }
-            });
-        });
-  
+  $('#slider-code').tinycarousel({ pager: true, interval: true  });
+           
 
 
 
