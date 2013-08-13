@@ -1816,11 +1816,22 @@ height: 203px; overflow: hidden; position: relative; }
     height: 203px;  width: 800px;}
 #slider-code .overview li img { float: left; margin: 0 20px 0 0; padding: 1px; 
     height: 200px;  width: 200px; border-radius: 50%;}
-#slider-code .overview li p {  margin: 2em 0 0 3em; 
-    padding: 10px; font-size: 2em; 
-    font-family: 'thin'; width: 600px; 
-line-height: 1.3em;
- background: url('../img/dark.png') repeat;
- color:#ffa500;
+#slider-code .overview li p, #slider-code .overview li span { 
+        margin: 2em 0 0 3em; 
+        padding: 10px;
+        font-size: 2em; 
+        font-family: 'thin'; 
+        width: 650px; 
+        line-height: 1.3em;
+        background: url('../img/dark.png') repeat;
+        color:#ffa500;
+}
 
+#slider-code .overview li span
+ {  
+    margin: 3em 0 0 11em; 
+    padding: 0 0.5em 0.2em 0.5em;
+    width: 300px; 
+    color:#fefefe;
+    z-index: -1;
 }
