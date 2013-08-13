@@ -217,7 +217,7 @@ function calculateScroll() {
   });
   
 
-  $('#slider-code').tinycarousel({ pager: true, interval: true  });
+  $('#slider-code').tinycarousel({ interval: true });
            
 
 
