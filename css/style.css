@@ -1813,6 +1813,14 @@ height: 203px; overflow: hidden; position: relative; }
 #slider-code .disable { visibility: hidden; }
 #slider-code .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
 #slider-code .overview li { float: left; margin: 0 20px 0 0; padding: 1px; 
-    height: 203px;  width: 750px;}
+    height: 203px;  width: 800px;}
 #slider-code .overview li img { float: left; margin: 0 20px 0 0; padding: 1px; 
     height: 200px;  width: 200px; border-radius: 50%;}
+#slider-code .overview li p {  margin: 2em 0 0 3em; 
+    padding: 10px; font-size: 2em; 
+    font-family: 'thin'; width: 600px; 
+line-height: 1.3em;
+ background: url('../img/dark.png') repeat;
+ color:#ffa500;
+
+}
