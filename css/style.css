@@ -1876,3 +1876,21 @@ height: 203px; overflow: hidden; position: relative; }
     color:#fefefe;
     z-index: -1;
 }
+
+.language1, .language2, .language3 {
+    width: 70px;
+    position: absolute;
+    right: 0;
+}
+
+.language1 {
+  top: 2%;
+}
+
+.language2 {
+  top: 13%;
+}
+
+.language3 {
+  top: 24%;
+}
