@@ -218,6 +218,12 @@ function calculateScroll() {
   
 
   $('#slider-code').tinycarousel({ interval: true });
+
+
+  $('.language').on('click', function() {
+    $('.language').removeClass('active');
+    $(this).addClass('active');
+  });
            
 
 

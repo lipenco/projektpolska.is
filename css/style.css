@@ -1877,10 +1877,32 @@ height: 203px; overflow: hidden; position: relative; }
     z-index: -1;
 }
 
+
 .language1, .language2, .language3 {
     width: 70px;
     position: absolute;
     right: 0;
+    z-index: 99999;
+    opacity: 0.5;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.language1:hover, .language2:hover, .language3:hover {
+    opacity: 1;
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.language1.active, .language2.active, .language3.active {
+    opacity: 1;
 }
 
 .language1 {
