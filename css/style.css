@@ -887,18 +887,18 @@ p.milestones-date {
     width: auto;
 }
 
-#milestones-navigation {
+/*#milestones-navigation {
     height: 180px;
     margin: 0 auto;
     padding-top: 20px;
     width: 1046px;
     background: url('../img/contact.png');
-}
+}*/
 
 .logo > img {
     border-radius: 10px;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 5px;
     width: 200px;
     text-align: center;
     filter: grayscale(100%);
@@ -914,9 +914,10 @@ p.milestones-date {
 
 .logo2 > img {
     border-radius: 10px;
-    margin-left: 210px;
-    margin-top: 20px;
-    width: 200px;
+   margin-left: 150px;
+   margin-right: 50px;
+    margin-top: 10px;
+    width: 100px;
     text-align: center;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -927,6 +928,10 @@ p.milestones-date {
     -ms-transition: all 0s ease-in-out;
     -o-transition: all 0s ease-in-out;
     transition: all 0s ease-in-out;
+}
+
+.logo3 > img {
+    margin-top: 20px;
 }
 
 .logo> img:hover , .logo2> img:hover {
